@@ -37,6 +37,11 @@ class MovieList extends React.Component {
                         Delete
                       </button>
                     </td>
+                    <td>
+                      <a href={`movie-editor.html?id=${movie.id}`}>
+                        Editor
+                      </a>
+                    </td>
                   </tr>
               )
             }
